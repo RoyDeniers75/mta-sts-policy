@@ -2,7 +2,13 @@
   publish = "."
 
 [[headers]]
-  for = "/.well-known/*"
+  for = "/.well-known/mta-sts.txt"
   [headers.values]
     Content-Type = "text/plain"
     Cache-Control = "max-age=86400"
+
+[[redirects]]
+  from = "/.well-known/mta-sts.txt"
+  to = "/mta-sts.txt"
+  status = 200
+  force = true
