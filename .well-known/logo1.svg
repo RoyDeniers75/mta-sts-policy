@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg"
+     version="1.2" baseProfile="tiny-ps"
+     width="512" height="512" viewBox="0 0 512 512">
+  <title>Roy Deniers Logo</title>
+  <circle cx="256" cy="256" r="256" fill="#1D2152"/>
+  <text x="256" y="210"
+        text-anchor="middle"
+        font-family="Arial, Helvetica, sans-serif"
+        font-size="96"
+        font-weight="bold"
+        fill="#FFFFFF">ROY</text>
+  <text x="256" y="360"
+        text-anchor="middle"
+        font-family="Arial, Helvetica, sans-serif"
+        font-size="96"
+        font-weight="bold"
+        fill="#FFFFFF">DENIERS</text>
+</svg>
